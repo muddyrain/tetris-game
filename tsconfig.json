@@ -1,0 +1,33 @@
+{
+    // 编译选项
+    "compilerOptions": {
+      // 编辑配置的目标代码的版本标准
+      "target": "ES2016",
+      // 配置编译目标的使用模块化标准
+      "module": "ESNext",
+      // 默认环境
+      "lib": [
+        "ES2016",
+        "DOM"
+      ],
+      // 编译输出
+      "outDir": "./dist",
+      // 严格空类型检查
+      "strictNullChecks": true,
+      // 移除掉注释
+      "removeComments": true,
+      // 启用es模块化交互非es模块导出
+      "esModuleInterop": true,
+      // 模块解析策略
+      "moduleResolution": "node",
+      // 属性初始化严格执行
+      "strictPropertyInitialization": true,
+      // 禁用隐式any推断类型
+      "noImplicitAny": false,
+      // 禁用隐式this推断类型
+      "noImplicitThis": false,
+    },
+    "include": [
+      "./src/"
+    ]
+  }
